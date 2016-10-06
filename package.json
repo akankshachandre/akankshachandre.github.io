@@ -1,0 +1,24 @@
+{
+  "name": "akankshachandre.github.io",
+  "version": "0.0.0",
+  "description": "mywebsite",
+  "main": "index.html",
+  "dependencies": {
+    "angular": "~1.5.8",
+    "angular-ui-router": "~0.3.1",
+    "angular-route": "~1.5.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akankshachandre/akankshachandre.github.io.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/akankshachandre/akankshachandre.github.io/issues"
+  }
+}

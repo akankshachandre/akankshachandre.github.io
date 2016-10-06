@@ -1,8 +1,16 @@
-<html>
+<html ng-app='mywebsite'>
 	<head>
+		<link href="./node_modules/angular/angular.min.js"/>
+		<link href="./node_modules/angular-route/angular-route.min.js"/>
+		<link href="./node_modules/angular-ui-router/release/angular-ui-router.min.js"/>
+		<link href='./js/app.js'/>
+		<link href='./js/controller/homecontroller.js'/>
+		<link rel="stylesheet" href="./css/index.css"/>
 	</head>
-	<body>
-		<h1>Akanksha Chandre</h1>
-		<h4>Welcome to my world</h4>
+	<body ng-controller='homeCtrl'>
+		<div class='name'>
+			<h1>{{name}}</h1>
+			<h4>Welcome to my world</h4>
+		</div>
 	</body>
 </html>
