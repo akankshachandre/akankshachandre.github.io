@@ -1,4 +1,4 @@
-angular.module('mywebsite',['ngRoute','ui.router'])
+angular.module('mywebsite',['ngRoute','ui.router']);
 
 angular.module('mywebsite').config(function($stateProvider,$urlProvider){
 	$stateProvider
@@ -7,4 +7,4 @@ angular.module('mywebsite').config(function($stateProvider,$urlProvider){
 		//templateUrl:'home.html',
 		controller:'homeCtrl'
 	});
-})
+});
