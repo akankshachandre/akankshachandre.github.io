@@ -1,6 +1,6 @@
-angular.module('mywebsite',['ngRoute','ui.router']);
+var app = angular.module('mywebsite',['ui.router']);
 
-angular.module('mywebsite').config(function($stateProvider,$urlProvider){
+app.config(function($stateProvider,$urlRouterProvider){
 	$stateProvider
 	.state('home',{
 		url:'/home',
