@@ -12,4 +12,9 @@ app.config(function($stateProvider,$urlRouterProvider){
 		templateUrl:'../static/about.html',
 		controller:'aboutCtrl'
 	})
+	.state('resume',{
+		url:'/resume',
+		//templateUrl:'../static/resume.html',
+		controller:'resumeCtrl'
+	})
 });
