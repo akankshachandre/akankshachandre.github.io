@@ -14,7 +14,7 @@ app.config(function($stateProvider,$urlRouterProvider){
 	})
 	.state('resume',{
 		url:'/resume',
-		//templateUrl:'../static/resume.html',
+		templateUrl:'https://github.com/akankshachandre/akankshachandre.github.io/blob/master/Resume.pdf',
 		controller:'resumeCtrl'
 	})
 });
