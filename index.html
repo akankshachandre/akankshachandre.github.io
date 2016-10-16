@@ -28,10 +28,14 @@
           </li>
           <li class="navigation-items"> <a href="/projects">Projects&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
           </li>
-          <li class="navigation-items"> <a href="/linkedin">LinkedIn&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
+          <li class="navigation-items">
+          	<a ng-click="linkedInCollapsed = !linkedInCollapsed">LinkedIn&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
+			<div ng-show="linkedInCollapsed">
+				<a>{{linkedIn}}</a>
+			</div>
           </li>
           <li class="navigation-items">
-          	<a ng-click="isCollapsed = !isCollapsed">GitHub&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
+          	<a ng-click="githubCollapsed = !githubCollapsed">GitHub&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
 			<div ng-show="isCollapsed">
 				<a>{{github}}</a>
 			</div>
