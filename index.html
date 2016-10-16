@@ -40,7 +40,11 @@
 				<a>{{github}}</a>
 			</div>
           </li>
-          <li class="navigation-items"> <a href="/https://github.com/akankshachandre/akankshachandre.github.io/blob/master/Resume.pdf">Resume&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
+          <li class="navigation-items">
+          	<a ng-click="resumeCollapsed = !resumeCollapsed">GitHub&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
+			<div ng-show="resumeCollapsed">
+				<a>{{resume}}</a>
+			</div>
           </li>
         </ul>
         <div align='center'>
