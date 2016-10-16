@@ -15,6 +15,6 @@ angular.module('mywebsite')
 	$scope.linkedIn = "https://www.linkedin.com/in/akanksha-akshay-chandre-008998106";
 	$scope.github = "https://github.com/akankshachandre";
 
-	$scope.resume = "https://github.com/akankshachandre/akankshachandre.github.io/blob/master/Resume.pdf";
+	$scope.resume = "https://github.com/akankshachandre\n/akankshachandre.github.io/blob/master/Resume.pdf";
 
 });
