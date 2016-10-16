@@ -31,19 +31,19 @@
           <li class="navigation-items">
           	<a ng-click="linkedInCollapsed = !linkedInCollapsed">LinkedIn&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
 			<div ng-show="linkedInCollapsed" class='collapse-content'>
-				<a href=”linkedIn”>{{linkedIn}}</a>
+				<a href={{linkedIn}}>{{linkedIn}}</a>
 			</div>
           </li>
           <li class="navigation-items">
           	<a ng-click="githubCollapsed = !githubCollapsed">GitHub&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
 			<div ng-show="githubCollapsed" class='collapse-content'>
-				<a href=”github”>{{github}}</a>
+				<a href={{github}}>{{github}}</a>
 			</div>
           </li>
           <li class="navigation-items">
           	<a ng-click="resumeCollapsed = !resumeCollapsed">Resume&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
 			<div ng-show="resumeCollapsed">
-				<a href=”resume”>{{resume}}</a>
+				<a href={{resume}}>{{resume}}</a>
 			</div>
           </li>
         </ul>
