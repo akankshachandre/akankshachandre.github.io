@@ -29,7 +29,7 @@
           <li class="navigation-items">
           	<a ng-click="isCollapsed = !isCollapsed">GitHub&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
 			<hr>
-			<div uib-collapse="isCollapsed">
+			<div ng-show="isCollapsed">
 				<div class="well well-lg">Some content</div>
 			</div>
           </li>
