@@ -29,8 +29,8 @@ body{
 }
 .navigation-items a {
 	display : block;
- 	background-color : white;
-	color : black;
+ 	background-color : #444;
+	color : white;
 	line-height : 2em;
 	text-decoration : none;
 	padding : 10px;
@@ -38,12 +38,8 @@ body{
 	margin-bottom: 30px;
 }
 .navigation-items a:hover {
-    background-color : white;
+    background-color : #222;
 }
 .i{
 	font-size: 50px;
-}
-.collapse-content{
-	background-color: white;
-	color:black;
 }
