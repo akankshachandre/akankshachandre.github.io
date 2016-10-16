@@ -18,7 +18,7 @@
     	<ul class="navigation">
           <li class="navigation-items">
           	<a ng-click="aboutCollapsed = !aboutCollapsed">About&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
-			<div ng-show="aboutCollapsed">
+			<div ng-show="aboutCollapsed" class='collapse-content'>
 				<a class='collapse-content'>{{about}}</a>
 			</div>
           </li>
@@ -30,19 +30,19 @@
           </li>
           <li class="navigation-items">
           	<a ng-click="linkedInCollapsed = !linkedInCollapsed">LinkedIn&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
-			<div ng-show="linkedInCollapsed">
+			<div ng-show="linkedInCollapsed" class='collapse-content'>
 				<a class='collapse-content'>{{linkedIn}}</a>
 			</div>
           </li>
           <li class="navigation-items">
           	<a ng-click="githubCollapsed = !githubCollapsed">GitHub&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
-			<div ng-show="githubCollapsed">
+			<div ng-show="githubCollapsed" class='collapse-content'>
 				<a class='collapse-content'>{{github}}</a>
 			</div>
           </li>
           <li class="navigation-items">
           	<a ng-click="resumeCollapsed = !resumeCollapsed">Resume&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
-			<div ng-show="resumeCollapsed">
+			<div ng-show="resumeCollapsed" class='collapse-content'>
 				<a class='collapse-content'>{{resume}}</a>
 			</div>
           </li>
