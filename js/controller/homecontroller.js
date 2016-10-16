@@ -11,7 +11,7 @@ angular.module('mywebsite')
 	$scope.hash = '3fec6363433eeb997722d07ad9e2d17c?s=80';
 
 
-	$scope.linedIn = "https://www.linkedin.com/in/akanksha-akshay-chandre-008998106";
+	$scope.linkedIn = "https://www.linkedin.com/in/akanksha-akshay-chandre-008998106";
 	$scope.github = "https://github.com/akankshachandre";
 
 });
