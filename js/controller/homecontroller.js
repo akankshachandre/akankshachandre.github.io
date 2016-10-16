@@ -3,6 +3,7 @@ angular.module('mywebsite')
 	$scope.aboutCollapsed = false;
 	$scope.linkedInCollapsed = false;
 	$scope.githubCollapsed = false;
+	$scope.resumeCollapsed = false;
 
 	$scope.about = "I am hardworking,sincere,sarcastic and fun to be around";
 
