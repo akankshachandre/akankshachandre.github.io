@@ -29,8 +29,8 @@ body{
 }
 .navigation-items a {
 	display : block;
- 	background-color : #444;
-	color : white;
+ 	background-color : white;
+	color : black;
 	line-height : 2em;
 	text-decoration : none;
 	padding : 10px;
@@ -38,7 +38,7 @@ body{
 	margin-bottom: 30px;
 }
 .navigation-items a:hover {
-    background-color : #222;
+    background-color : white;
 }
 .i{
 	font-size: 50px;
