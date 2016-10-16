@@ -27,6 +27,11 @@
           <li class="navigation-items"> <a href="/linkedin">LinkedIn&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
           </li>
           <li class="navigation-items"> <a href="/github">GitHub&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
+          	<button type="button" class="btn btn-default" ng-click="isCollapsed = !isCollapsed">Toggle collapse Vertically</button>
+			<hr>
+			<div uib-collapse="isCollapsed">
+				<div class="well well-lg">Some content</div>
+			</div>
           </li>
           <li class="navigation-items"> <a href="/https://github.com/akankshachandre/akankshachandre.github.io/blob/master/Resume.pdf">Resume&nbsp;&nbsp;<i class='fa fa-angle-right'></i></a>
           </li>
