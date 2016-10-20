@@ -19,7 +19,7 @@ app.config(function($stateProvider,$urlRouterProvider){
 	})
 	.state('workex',{
 		url:'/workex',
-		templateUrl:'../static/workex.html',
+		templateUrl:'../workex.html',
 		controller:'homeCtrl'
 	})
 });
