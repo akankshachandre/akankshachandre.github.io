@@ -1,5 +1,5 @@
-angular.module('mywebsite')
-.controller('workexCtrl',function($scope){
+var app = angular.module('mywebsite');
+app.controller('workexCtrl',function($scope){
 	$scope.name = 'Akanksha';
 
 	var exp1 = {
