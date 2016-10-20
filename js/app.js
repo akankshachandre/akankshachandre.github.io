@@ -14,7 +14,7 @@ app.config(function($stateProvider,$urlRouterProvider){
 	})
 	.state('workex',{
 		url:'/workex',
-		templateUrl:'../workex.html',
+		templateUrl:'../random.html',
 		controller:'workexCtrl'
 	})
 });
