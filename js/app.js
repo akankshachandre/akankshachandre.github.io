@@ -17,4 +17,9 @@ app.config(function($stateProvider,$urlRouterProvider){
 		templateUrl:'https://github.com/akankshachandre/akankshachandre.github.io/blob/master/Resume.pdf',
 		controller:'resumeCtrl'
 	})
+	.state('workex',{
+		url:'/workex',
+		templateUrl:'../static/workex.html',
+		controller:'workexCtrl'
+	})
 });
