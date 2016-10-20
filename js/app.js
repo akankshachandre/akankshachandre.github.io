@@ -19,7 +19,7 @@ app.config(function($stateProvider,$urlRouterProvider){
 	})
 });
 
-angular.controller('workexCtrl',function($scope){
+app.controller('workexCtrl',function($scope){
 	console.log("Hi");
 	$scope.name = 'Akanksha';
 	$scope.experiences = [];
