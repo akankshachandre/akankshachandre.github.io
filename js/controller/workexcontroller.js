@@ -1,5 +1,5 @@
 var app = angular.module('mywebsite');
-app.controller('workexCtrl',,[$scope.function($scope){
+app.controller('workexCtrl',[$scope.function($scope){
 	console.log("Hi");
 	$scope.name = 'Akanksha';
 
