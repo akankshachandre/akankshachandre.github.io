@@ -9,4 +9,4 @@ angular.module('mywebsite')
 	}
 
 	$scope.experiences = [exp1,exp2];
-}
+})
