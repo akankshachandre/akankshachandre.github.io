@@ -1,5 +1,5 @@
 var app = angular.module('mywebsite');
-app.controller('workexCtrl',function($scope){
+app.controller('workexCtrl',,[$scope.function($scope){
 	$scope.name = 'Akanksha';
 
 	var exp1 = {
@@ -12,4 +12,4 @@ app.controller('workexCtrl',function($scope){
 	$scope.experiences.push({company : 'Samsung Electronics America'});
 	$scope.experiences.push(exp2);
 	console.log(JSON.stringify(exp1));
-});
+}]);
