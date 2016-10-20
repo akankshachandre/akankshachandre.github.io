@@ -13,7 +13,7 @@ app.config(function($stateProvider,$urlRouterProvider){
 		controller:'resumeCtrl'
 	})
 	.state('workex',{
-		url:'/workex',
+		url:'#/workex',
 		templateUrl:'/static/workex.html',
 		controller:'workexCtrl'
 	})
