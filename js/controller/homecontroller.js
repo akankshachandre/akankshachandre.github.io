@@ -19,6 +19,7 @@ angular.module('mywebsite')
 
 	$scope.name = 'Akanksha';
 
+	$scope.experiences = [];
 	var exp1 = {
 		company : 'Samsung Electronics America'
 	};
