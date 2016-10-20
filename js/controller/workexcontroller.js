@@ -8,5 +8,5 @@ angular.module('mywebsite')
 		'company' : 'Accenture Services Pvt Limited'
 	}
 
-	$scope.experiences = [];
+	$scope.experiences = [exp1,exp2];
 }
