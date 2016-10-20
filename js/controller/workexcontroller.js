@@ -11,4 +11,5 @@ angular.module('mywebsite')
 	};
 	$scope.experiences.push({company : 'Samsung Electronics America'});
 	$scope.experiences.push(exp2);
+	console.log(JSON.stringify(exp1));
 });
