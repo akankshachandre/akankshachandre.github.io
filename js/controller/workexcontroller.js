@@ -7,8 +7,6 @@ angular.module('mywebsite')
 	var exp2 = {
 		company : 'Accenture Services Pvt Limited'
 	}
-
-	$scope.experiences = [];
-	$scope.experiences.push(exp1);
+	$scope.experiences.push({company : 'Samsung Electronics America'});
 	$scope.experiences.push(exp2);
 })
