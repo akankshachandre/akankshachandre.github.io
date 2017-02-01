@@ -14,12 +14,12 @@ app.config(function($stateProvider,$urlRouterProvider){
 	})
 	.state('workex',{
 		url:'/workex',
-		templateUrl:'/static/workex.html',
+		templateUrl:'../workex.html',
 		controller:'workexCtrl'
 	})
 	.state('education',{
 		url:'/workex',
-		templateUrl:'/static/education.html',
+		templateUrl:'../education.html',
 		controller:'educationCtrl'
 	})
 });
