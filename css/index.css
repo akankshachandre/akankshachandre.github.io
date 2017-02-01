@@ -44,6 +44,7 @@ body{
 	font-size: 50px;
 }
 blockquote {
+  margin-top: 150px;
   background: #f9f9f9;
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
