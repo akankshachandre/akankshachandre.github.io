@@ -22,6 +22,11 @@ app.config(function($stateProvider,$urlRouterProvider){
 		templateUrl:'../education.html',
 		controller:'educationCtrl'
 	})
+	.state('education',{
+		url:'/projects',
+		templateUrl:'../projects.html',
+		controller:'projectCtrl'
+	})
 });
 
 app.controller('workexCtrl',function($scope){
