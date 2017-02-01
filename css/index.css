@@ -44,6 +44,9 @@ body{
 .i{
 	font-size: 50px;
 }
+.name{
+	margin-left: 500px;
+}
 blockquote {
   margin-top: 150px;
   background: #f9f9f9;
