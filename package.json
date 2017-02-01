@@ -1,6 +1,6 @@
 {
   "name": "akankshachandre.github.io",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "mywebsite",
   "main": "index.html",
   "dependencies": {
@@ -8,7 +8,7 @@
     "angular-ui-router": "~0.3.1",
     "angular-route": "~1.5.8",
     "angular-bootstrap": "~0.12.2",
-    "jQuery": "~1.7.4",
+    "jquery": "~1.7.4",
     "jquery": "~3.1.1"
   },
   "devDependencies": {},
